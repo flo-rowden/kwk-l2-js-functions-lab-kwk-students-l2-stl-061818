@@ -23,6 +23,8 @@ function calculatesFarePrice(startingBlock, endingBlock) {
     return Math.abs((feet - 400) * 0.02)
   } else if (2000 < feet && feet <= 2500) {
     return 25
-  } else if (feet > 2500);
+  } else if (feet > 2500);{
+    
+  }
 }
 
