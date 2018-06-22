@@ -15,4 +15,6 @@ function distanceTravelledInFeet(endingBlock, startingBlock) {
   return Math.abs(feet)
 }
 
-function calculateFarePrice( )
+function calculateFarePrice() {
+  
+}
