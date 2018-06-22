@@ -21,6 +21,8 @@ function calculatesFarePrice(startingBlock, endingBlock) {
     return "Here's a free sample!"
   } else if (400 < feet && feet <= 2000) {
     return Math.abs((feet - 400) * 0.02)
-  } 
+  } else if (2000 < feet && feet <= 2500) {
+    
+  }
 }
 
