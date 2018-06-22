@@ -14,5 +14,6 @@ function distanceFromHqInFeet(street) {
 function distanceTravelledInFeet(endingBlock, startingBlock) {
   let difference = endingBlock -startingBlock
   let feet = difference * 264
+  
   return Math.abs(feet)
 }
