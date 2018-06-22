@@ -16,13 +16,13 @@ function distanceTravelledInFeet(endingBlock, startingBlock) {
 }
 
 function calculatesFarePrice(startingBlock, endingBlock) {
- let feet = distanceTravelledInFeet(startingBlock, endingBlock);
- if (feet <= 400) {
-   return "Here's a free sample!"
+ let feet = distanceTravelledInFeet(startingBlock, endingBloc);
+  if (feet <= 400) {
+    return "Here's a free sample!"
  } else if (400 < feet && feet <= 2000) {
-   return Math.abs((feet - 400) * 0.02)
+    return Math.abs((feet - 400) * 0.02)
  } else if (2000 < feet && feet <= 2500) {
-   return 25
+    return 25
  } else if (feet > 2500); {
-   return "cannot travel that far"
+    return "cannot travel that far"
 }
